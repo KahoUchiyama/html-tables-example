@@ -9,7 +9,8 @@ header h1{
 }
 
 table{
-    border: 5px dotted brown;  
+    border: 5px dotted brown; 
+    margin: auto; 
 }
 
 .table{
@@ -18,10 +19,10 @@ table{
 
 tbody{
     background-color: white;
+    max-height: 100px;
 }
 
 th, td{
-    border: 0.5px solid rgba(255, 255, 255, 0.199);
     min-width: 100px;
 }
 
