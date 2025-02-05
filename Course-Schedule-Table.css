@@ -1,0 +1,65 @@
+*{
+    background-color: lightgray;
+    text-align: center;
+}
+
+header h1{
+    text-align: center;
+    width: 500px;
+}
+
+table{
+    border: 2px solid rgba(255, 255, 255, 0.199); /* ボーダーを追加 */
+    border-color: rgba(255, 255, 255, 0.199);
+    width: 500px;   
+    border-radius: 20px;
+}
+
+th, td{
+    border: 0.5px solid rgba(255, 255, 255, 0.199);
+}
+
+th{
+    background-color: rgb(35, 79, 255);
+    height: 40px;
+}
+
+td{
+    height: 40px;
+    background-color: white;
+}
+
+thead{
+    background-color: rgb(71, 197, 255);
+    padding: 5px;
+}
+
+tbody{
+    background-color: white;
+}
+
+caption{
+    padding-top: 10px;
+    caption-side: bottom;
+}
+
+thead tr:first-child th:first-child {
+    border-top-left-radius: 10px; 
+    border-left: 1px solid rgba(164, 39, 39, 0.199);  /* 左の枠線を明示的に設定 */
+    border-top: 1px solid rgba(255, 255, 255, 0.199);}    /* 左上 */
+
+thead tr:first-child th:last-child 
+    { border-top-right-radius: 10px; 
+        border-right: 1px solid rgba(255, 255, 255, 0.199);  /* 左の枠線を明示的に設定 */
+        border-top: 1px solid rgba(255, 255, 255, 0.199);}   /* 右上 */
+
+tbody tr:last-child td:first-child 
+    { border-bottom-left-radius: 10px; 
+        border-left: 1px solid rgba(255, 255, 255, 0.199);  /* 左の枠線を明示的に設定 */
+        border-bottom: 1px solid rgba(255, 255, 255, 0.199);
+    } /* 左下 */
+
+tbody tr:last-child td:last-child 
+    { border-bottom-right-radius: 10px; 
+        border-right: 1px solid rgba(255, 255, 255, 0.199);  /* 左の枠線を明示的に設定 */
+        border-bottom: 1px solid rgba(255, 255, 255, 0.199);}
