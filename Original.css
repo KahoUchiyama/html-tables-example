@@ -1,0 +1,48 @@
+*{
+    background-color: rgb(253, 230, 190);
+    text-align: center;
+}
+
+header h1{
+    color: rgb(251, 59, 91);
+    text-align: center;
+}
+
+table{
+    border: 5px dotted brown;  
+}
+
+.table{
+    text-align: center;
+}
+
+tbody{
+    background-color: white;
+}
+
+th, td{
+    border: 0.5px solid rgba(255, 255, 255, 0.199);
+    min-width: 100px;
+}
+
+th{
+    background-color:rgb(240, 207, 255);
+    height: 80px;
+}
+
+td{
+    height: 60px;
+    background-color: white;
+}
+
+tr p{
+    background-color: white;
+}
+
+caption{
+    padding-top: 20px;
+    caption-side: bottom;
+    color: darkblue;
+}
+
+
